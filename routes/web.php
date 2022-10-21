@@ -76,7 +76,7 @@ Route::get('posts/{slug}', function($slug){
     }
 //
     return view('post', [
-        "tittle" => "Single Post",
+        "title" => "Single Post",
         "post" => $new_post
     ]);
 });
